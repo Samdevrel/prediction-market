@@ -263,7 +263,7 @@ export default function Home() {
             </div>
 
             <div className="p-4 bg-yellow-900/30 border border-yellow-600 text-sm">
-              <div className="font-bold text-yellow-400 mb-1">⚡ Max Position Size: ${market.liquidity}</div>
+              <div className="font-bold text-yellow-400 mb-1">⚡ Max Position Size: ${selectedMarket.liquidity}</div>
               <div className="text-gray-400">
                 Probability reflects market consensus. Win by being right.
               </div>
