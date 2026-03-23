@@ -263,7 +263,7 @@ export default function Home() {
             </div>
 
             <div className="p-4 bg-yellow-900/30 border border-yellow-600 text-sm">
-              <div className="font-bold text-yellow-400 mb-1">⚡ Max Position Size: ${selectedMarket.liquidity}</div>
+              <div className="font-bold text-yellow-400 mb-1">⚡ Max Position Size: ${market.liquidity}</div>
               <div className="text-gray-400">
                 Probability reflects market consensus. Win by being right.
               </div>
@@ -327,13 +327,7 @@ export default function Home() {
         <footer className="text-center text-gray-500 text-sm py-8 border-t border-gray-800">
           <p>
             Built by <a href="https://x.com/samdevrel" className="text-orange-400 hover:underline">@samdevrel</a>
-          <button
-            onClick={() => window.location.href = '/docs/overview'}
-            className="w-full py-4 bg-purple-500 text-white font-bold border-4 border-purple-400 hover:bg-purple-400 mb-4"
-          >
-            {buttonText}
-          </button>
-                    </p>
+          </p>
         </footer>
       </div>
     </main>
